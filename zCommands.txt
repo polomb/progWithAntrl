@@ -1,0 +1,5 @@
+CMake:
+cd C:\Users\GAMES\Desktop\Прог\Translator\MyProg
+antlr4 -Dlanguage=Cpp -no-listener -visitor -o src/parser mygrammar.g4
+cd C:\Users\GAMES\Desktop\Прог\Translator\MyProg\build
+cmake ..
